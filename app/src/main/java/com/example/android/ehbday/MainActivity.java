@@ -8,8 +8,15 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final Integer[] images = {R.drawable.wall1, R.drawable.wall3};
-    private static final Integer[] messages = {R.string.m1, R.string.m2, R.string.m3};
+    private static final Integer[] images = {R.drawable.wall1,R.drawable.wall2, R.drawable.wall3};
+    // These messages can be 66 characters
+    private static final Integer[] topMessages = {
+
+    };
+    // These messages can be 44 characters
+    private static final Integer[] bottomMessages = {
+
+    };
     private static int counter;
 
 
